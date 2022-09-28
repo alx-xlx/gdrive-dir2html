@@ -13,11 +13,14 @@
 
 </div>
  
+
 # gdrive-dir2html
 
 This is a small Jupyter Notebook Script that will generate an standalone single page HTML index of all the Files and Folders in your Google Drive. It can also generate short information like Size and Modified date of these Files & Directories.
 
 It is an alternative to [Snap2HTML](http://www.rlvision.com/snap2html/about.php) but for Linux Machine
+
+<p align="center"><img src="https://i.imgur.com/sj4PEUo.gif" alt="LOGO"></p>
 
 
 # What is it used for ?
@@ -63,11 +66,9 @@ Example: `index-28-09-2022-05-43-57.html`
 
 <!-- ![](https://i.imgur.com/sj4PEUo.gif) -->
 
-<p align="center"><img src="https://i.imgur.com/sj4PEUo.gif" alt="LOGO"></p>
 
-OR
 
-### 2. Run Locally to Index Local Drives
+## Yoou can also Run locally to Index Local Drives
 
 The program only takes two arguments, the directory to be indexed and the output file name without the extension, so:
 
