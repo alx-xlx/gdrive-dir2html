@@ -54,7 +54,5 @@ The program only takes two arguments, the directory to be indexed and the output
 Will index the contents of /home/user and save them to filelist.html on the current directory. Simple as that
 
 
-## License
-The gdrive-dir2html.py file is licensed under GPLv2
 
-The template.html file is taken directly from Snap2HTML an thus is licensed as freeware
+
