@@ -27,8 +27,8 @@ def generateDirArray(dirToScan):
 
     # Template Input
     global folder_to_index
-    folder_to_index = raw_input("Copy and paste the path of Folder you want to Index :    ")
-    print "Processing...."
+    folder_to_index = input("Copy and paste the path of Folder you want to Index :    ")
+    print("Processing....")
 
     # assing a number identifier to each directory
     i = 1
@@ -129,7 +129,7 @@ def generateDirArray(dirToScan):
 
 
 def generateHTML(dirData,appName,appVer,genDate,genTime,title,appLink,numFiles,numDirs,grandTotalSize,linkFiles):
-    templateFile = open('gdrive-dir2html/template.html', 'r')
+    templateFile = open('gdrive-dir2html/example/template.html', 'r')
     outputFile = open(title, 'w')
     for line in templateFile:
         modifiedLine = line
