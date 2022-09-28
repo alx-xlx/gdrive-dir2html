@@ -37,6 +37,28 @@ There are many reasons for using it. These are often used by users who have larg
 <!-- Open in Colab in Center -->
 <a href="https://colab.research.google.com/github/alx-xlx/gdrive-dir2html/blob/master/gdrive_dir2html.ipynb" rel="nofollow"><img src="https://camo.githubusercontent.com/52feade06f2fecbf006889a904d221e6a730c194/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667" alt="Open In Colab" class='centre' data-canonical-src="https://colab.research.google.com/assets/colab-badge.svg" style="max-width:100%;display:block;margin-left:auto;margin-right:auto;"></a>
 
+### 2. Click on Connect
+
+### 3. Connect to your Google Drive
+under `Mount Google Drive` you will see a play button, click on it. Allow all the Permissions.
+
+If success you will now see the Google Drive listed as drive on your Notebook's left Panel (you need to select the Files Tab to see it)
+
+### 4. Clone the `gdrive-dir2html` to your Notebook
+Run the next cell on your notebook marked as `Run this code to Clone gdrive-dir2html Repo`
+
+### 5. Generate the HTML index of your Google Drive
+Run the last code cell, it will prompt to enter the directory you need to index.
+If you need to Index any specific directory then browse to that directory in Files TAB on your left Panel and copy the PATH and Paste it to the Prompt. OR if you want to Index your whole Google Drive then you can simply enter `/content/drive`
+
+Press ENTER
+
+### 6. Download Google Drive Index HTML file
+on the left Files Panel you will now see the Generated Index File. If not then refresh the File System (NOT your browser)
+
+Example: `index-28-09-2022-05-43-57.html`
+
+
 <!-- https://i.imgur.com/hCFNHhN.gif -->
 
 <!-- ![](https://i.imgur.com/sj4PEUo.gif) -->
